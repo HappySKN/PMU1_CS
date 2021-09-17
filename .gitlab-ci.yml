@@ -1,14 +1,13 @@
 stages:
-- build  
+- build
 
 build_job:
-stage: build
-only:
-- branches
-script:
-- 'cd PMU1'
-- '"C:\Tools\Nuget\nuget.exe" restore'
-- '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" PMU1.sln'
+  stage: build
+  only:
+  - branches
+  script:
+  - 'C:\Tools\Nuget\nuget.exe restore'
+  - 'cmd /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" PMU1.sln'
 artifacts:
-paths:
-- 'PMU1\PMU1\bin\Debug\PMU1.exe'
+  paths:
+  - PMU1\bin\Debug\PMU1.exe
