@@ -1,12 +1,21 @@
 stages:
-- build
+- build  
 
 build_job:
   stage: build
   only:
   - branches
   script:
-  - C:\Users\HappySKN\source\repos\PMU1
+  - cd D:\PMY_C\pmy
+  - 'D:\PMY_C\nuget\nuget.exe restore'
+  - 'cmd /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe" pmy.sln'
+  artifacts:
+    paths:
+    - 'pmy\bin\Debug\pmy.exe'
+
+build_job:
+  script:
+  - cd C:\Users\HappySKN\source\repos\PMU1
   - 'C:\Tools\Nuget\nuget.exe restore'
   - 'cmd /c "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe" PMU1.sln'
   artifacts:
