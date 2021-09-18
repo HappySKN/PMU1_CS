@@ -5,3 +5,10 @@ C:\Users\HappySKN\source\repos\PMU1\PMU1\obj\Debug\PMU1.csproj.AssemblyReference
 C:\Users\HappySKN\source\repos\PMU1\PMU1\obj\Debug\PMU1.csproj.CoreCompileInputs.cache
 C:\Users\HappySKN\source\repos\PMU1\PMU1\obj\Debug\PMU1.exe
 C:\Users\HappySKN\source\repos\PMU1\PMU1\obj\Debug\PMU1.pdb
+C:\PMU1\PMU1\bin\Debug\PMU1.exe.config
+C:\PMU1\PMU1\bin\Debug\PMU1.exe
+C:\PMU1\PMU1\bin\Debug\PMU1.pdb
+C:\PMU1\PMU1\obj\Debug\PMU1.csproj.AssemblyReference.cache
+C:\PMU1\PMU1\obj\Debug\PMU1.csproj.CoreCompileInputs.cache
+C:\PMU1\PMU1\obj\Debug\PMU1.exe
+C:\PMU1\PMU1\obj\Debug\PMU1.pdb
